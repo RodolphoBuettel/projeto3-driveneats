@@ -1,0 +1,182 @@
+body {
+    background-color: #eeeeee;
+  }
+  h2{
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .topo {
+    position: fixed;
+    height: 92px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  
+    background: #cf2b2b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.container{
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+}
+  .topo h1 {
+    height: 44px;
+    width: 100%;
+    margin-left: 21px;
+    margin-top: 8px;
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: left;
+    color: white;
+  }
+  .topo h6 {
+    margin-left: 21px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .prato {
+    width: 250px;
+    margin-left: 19px;
+    box-sizing: border-box;
+    padding-top: 123px;
+
+  }
+  .refrigerantes{
+    margin-top: 17px;
+    display: flex;
+    
+    overflow: scroll;
+  }
+  .refrigerantes div{
+    height: 202px;
+    width: 172px;
+    margin-left: 19px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 9px;
+    background-color: #ffffff;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .doces{
+    margin-top: 17px;
+    display: flex;
+    margin-bottom: 113px;
+    overflow: scroll;
+  }
+  .doces div{
+    height: 197px;
+    width: 172px;
+    margin-left: 19px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 9px;
+    background-color: #ffffff;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .pratos{
+    margin-top: 17px;
+    display: flex;
+    
+    overflow: scroll;
+    
+  }
+  .pratos div{
+    height: 216px;
+    width: 172px;
+    margin-left: 19px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 9px;
+    background-color: #ffffff;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+  .opcao img{
+    height: 87px;
+    width: 144px;
+    margin-left: 14px;
+    margin-top: 18px;
+    border-radius: 4px;
+  }
+  .opcao h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .opcao h4{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    color: #A6A6A6;
+    font-weight: 300;
+    font-style: light;
+  }
+  .opcao h5{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 16px;
+    font-weight: 400;
+    color:#000000;
+  }
+  .bebidas {
+    width: 250px;
+    margin-left: 19px;
+    box-sizing: border-box;
+    padding-top: 27px;
+    
+  }
+  .sobremesa{
+    width: 300px;
+    margin-left: 19px;
+    box-sizing: border-box;
+    padding-top: 27px;
+    
+  }
+  .barrabot{
+    position: fixed;
+    height: 92px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    
+    
+  }
+  .confirmar{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    background-color: #CBCBCB;
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h5{
+    color: white;
+  }
