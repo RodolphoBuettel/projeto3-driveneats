@@ -61,8 +61,26 @@ function fecharPedido(){
     }
 }
 function windowOpen(){
-    const msg = `Olá, gostaria de fazer meu pedido: \n - Prato: Frango Yin Yang \n - Bebida: Coquinha Gelada \n - Sobremesa: Pudim \n Total: R$27.70`;
+    let pratoApp = document.querySelector('.prato1 h3').innerText;
 
-    const encode = encodeURIComponent(msg);
+    let bebidaApp = document.querySelector('.sabor1 h3').innerText;
+
+    let pudimApp = document.querySelector('.doce1 h3').innerText; 
+
+    let precoPratoApp = document.querySelector('.prato1 h5').innerText;
+
+    let precobebidaApp = document.querySelector('.sabor1 h5').innerText;
+
+    let precopudimApp = document.querySelector('.doce1 h5').innerText;
+
+    const total = Number(precoPratoApp) + Number(precobebidaApp) + Number(precopudimApp); 
+    const mensagem = `Olá, gostaria de fazer o pedido: \n
+    - Prato: ${pratoApp} \n
+    - Bebida: ${bebidaApp} \n
+    - Sobremesa: ${pudimApp} \n
+    Total: R$ 27.70 `;
+   
+
+    const encode = encodeURIComponent(mensagem);
     window.open(`https://wa.me/998252663?text=${encode}`);
 }
