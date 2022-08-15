@@ -12,7 +12,7 @@ body {
     width: 100%;
     margin-left: 0px;
     margin-top: 0px;
-  
+    z-index: 10;
     background: #cf2b2b;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -62,10 +62,7 @@ body {
     flex-shrink: 0;
     flex-wrap: wrap;
     border-radius: 9px;
-    background-color: #ffffff;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    
     border-radius: 9px;
   }
   .doces{
@@ -81,10 +78,7 @@ body {
     flex-shrink: 0;
     flex-wrap: wrap;
     border-radius: 9px;
-    background-color: #ffffff;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    
     border-radius: 9px;
   }
   .pratos{
@@ -101,11 +95,13 @@ body {
     flex-shrink: 0;
     flex-wrap: wrap;
     border-radius: 9px;
-    background-color: #ffffff;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    
+    
     border-radius: 9px;
+  }
+  .opcao{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    background-color:#ffffff;
   }
   .opcao img{
     height: 87px;
@@ -170,9 +166,11 @@ body {
     height: 61px;
     width: 364px;
     border-radius: 50px;
+    border: none;
     margin-left: 25px;
     margin-top: 15px;
     display: flex;
+  
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -180,3 +178,32 @@ body {
   h5{
     color: white;
   }
+  .selecionado{
+    box-shadow: inset 0px 0px 0px 5px #32b72f;
+  }
+  .check{
+    height: 15.4375px;
+    width: 15.4375px;
+    margin-top: -15px;
+    margin-left: 140px;
+    color:#32b72f;
+    opacity: 0;
+  }
+  .interruptor{
+    opacity: 1;
+  }
+.fecharpedido{
+  background-color: #32b72f;
+}
+.texto{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.confirmar a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  color: white;
+}
